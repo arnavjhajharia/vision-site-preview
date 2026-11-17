@@ -1,0 +1,498 @@
+{
+  "updated": "2026-11-17",
+  "statuses": {
+    "live": "Running today in the Vision harness.",
+    "building": "In active development.",
+    "planned": "On the roadmap."
+  },
+  "categories": [
+    {
+      "id": "essential",
+      "name": "Essential",
+      "tagline": "Chats, email, calendar, reminders, memory and safety rails.",
+      "essential": true
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity",
+      "tagline": "Optional: voice, focus, planning and life admin.",
+      "essential": false
+    },
+    {
+      "id": "builder",
+      "name": "Builder",
+      "tagline": "Optional: coding agents, jobs, previews and modules.",
+      "essential": false
+    }
+  ],
+  "features": [
+    {
+      "id": "whatsapp-agent",
+      "name": "Lives in WhatsApp",
+      "category": "essential",
+      "area": "Messaging",
+      "status": "live",
+      "source": "manual",
+      "description": "Its own WhatsApp number, in DMs and groups. Telegram too."
+    },
+    {
+      "id": "per-chat-permissions",
+      "name": "Per-chat permissions",
+      "category": "essential",
+      "area": "Trust & safety",
+      "status": "live",
+      "source": "manual",
+      "description": "Each chat gets a tier: read, ask, write or admin."
+    },
+    {
+      "id": "approval-gate",
+      "name": "Approve before anything goes out",
+      "category": "essential",
+      "area": "Trust & safety",
+      "status": "live",
+      "source": "manual",
+      "description": "Messages, emails and invites are drafts until you say yes."
+    },
+    {
+      "id": "owner-verify",
+      "name": "Owner passphrase",
+      "category": "essential",
+      "area": "Trust & safety",
+      "status": "live",
+      "source": "manual",
+      "description": "Prove it's you from a new device with a passphrase."
+    },
+    {
+      "id": "voice-notes-in",
+      "name": "Understands voice notes",
+      "category": "essential",
+      "area": "Voice",
+      "status": "live",
+      "source": "manual",
+      "description": "Voice notes transcribed locally and handled like text."
+    },
+    {
+      "id": "memory",
+      "name": "Long-term memory",
+      "category": "essential",
+      "area": "Memory",
+      "status": "live",
+      "source": "manual",
+      "description": "Remembers facts, preferences and promises across chats."
+    },
+    {
+      "id": "chat-notes",
+      "name": "Listening notes",
+      "category": "essential",
+      "area": "Memory",
+      "status": "live",
+      "source": "manual",
+      "description": "Running notes of decisions, deadlines and action items."
+    },
+    {
+      "id": "reminders",
+      "name": "Reminders that ring",
+      "category": "essential",
+      "area": "Planning",
+      "status": "live",
+      "source": "manual",
+      "description": "Natural-language reminders that nag, mirrored to Apple Reminders."
+    },
+    {
+      "id": "followups",
+      "name": "Smart follow-ups",
+      "category": "essential",
+      "area": "Planning",
+      "status": "live",
+      "source": "manual",
+      "description": "Pings them later only if nobody replied."
+    },
+    {
+      "id": "tasks",
+      "name": "Promise tracker",
+      "category": "essential",
+      "area": "Planning",
+      "status": "live",
+      "source": "manual",
+      "description": "Every promise and request, across all chats, in one list."
+    },
+    {
+      "id": "calendar",
+      "name": "Calendar",
+      "category": "essential",
+      "area": "Planning",
+      "status": "live",
+      "source": "manual",
+      "description": "See your day, find free slots, create events."
+    },
+    {
+      "id": "morning-digest",
+      "name": "Morning digest",
+      "category": "essential",
+      "area": "Planning",
+      "status": "live",
+      "source": "manual",
+      "description": "A morning brief of calendar, reminders and key email."
+    },
+    {
+      "id": "email",
+      "name": "Email triage and drafts",
+      "category": "essential",
+      "area": "Email",
+      "status": "live",
+      "source": "manual",
+      "description": "Surfaces important email and drafts replies in your voice."
+    },
+    {
+      "id": "vault",
+      "name": "Secrets vault",
+      "category": "essential",
+      "area": "Trust & safety",
+      "status": "live",
+      "source": "manual",
+      "description": "Passwords via one-time link; Vision uses them unseen."
+    },
+    {
+      "id": "dashboard",
+      "name": "Live dashboard",
+      "category": "essential",
+      "area": "Apps",
+      "status": "live",
+      "source": "manual",
+      "description": "Private web dashboard for jobs, reminders, memory and earnings."
+    },
+    {
+      "id": "kill-switch",
+      "name": "Kill switch",
+      "category": "essential",
+      "area": "Trust & safety",
+      "status": "live",
+      "source": "manual",
+      "description": "Say 'stop everything' and all agents halt."
+    },
+    {
+      "id": "desktop-web-app",
+      "name": "Desktop and web app",
+      "category": "essential",
+      "area": "Public Vision",
+      "status": "building",
+      "source": "manual",
+      "description": "A chat app with module panels, for Mac and web."
+    },
+    {
+      "id": "one-click-install",
+      "name": "One-click install",
+      "category": "essential",
+      "area": "Public Vision",
+      "status": "planned",
+      "source": "manual",
+      "description": "Download, sign in, link WhatsApp. No terminal."
+    },
+    {
+      "id": "module:email-calendar",
+      "name": "Email & Calendar",
+      "category": "essential",
+      "area": "Modules",
+      "status": "building",
+      "source": "module",
+      "description": "Read your inbox and calendar, write drafts. Nothing is ever sent without your explicit approval."
+    },
+    {
+      "id": "module:memory",
+      "name": "Memory",
+      "category": "essential",
+      "area": "Modules",
+      "status": "building",
+      "source": "module",
+      "description": "Long-term notes the assistant can remember, search and forget. Stored locally."
+    },
+    {
+      "id": "module:reminders",
+      "name": "Reminders",
+      "category": "essential",
+      "area": "Modules",
+      "status": "building",
+      "source": "module",
+      "description": "Local reminders with natural times ('in 2h', 'tomorrow 9am'). Notifications stay on this device."
+    },
+    {
+      "id": "module:vault",
+      "name": "Vault",
+      "category": "essential",
+      "area": "Modules",
+      "status": "building",
+      "source": "module",
+      "description": "Encrypted local secret store (AES-256-GCM). Secret values are never returned to chat."
+    },
+    {
+      "id": "module:whatsapp",
+      "name": "WhatsApp",
+      "category": "essential",
+      "area": "Modules",
+      "status": "building",
+      "source": "module",
+      "description": "Link your WhatsApp (and optionally a second bot number) by QR or pairing code. Replies are drafts until you approve them."
+    },
+    {
+      "id": "voice-replies",
+      "name": "Replies with voice",
+      "category": "productivity",
+      "area": "Voice",
+      "status": "live",
+      "source": "manual",
+      "description": "Spoken replies as voice notes, generated on-device."
+    },
+    {
+      "id": "smart-speaker",
+      "name": "Smart speaker",
+      "category": "productivity",
+      "area": "Voice",
+      "status": "building",
+      "source": "manual",
+      "description": "Talk to Vision through an Echo speaker."
+    },
+    {
+      "id": "voice-bed",
+      "name": "Voice from the dashboard",
+      "category": "productivity",
+      "area": "Voice",
+      "status": "building",
+      "source": "manual",
+      "description": "Hold to talk in the browser; hear answers aloud."
+    },
+    {
+      "id": "people-graph",
+      "name": "People graph",
+      "category": "productivity",
+      "area": "Memory",
+      "status": "building",
+      "source": "manual",
+      "description": "A private map of who you know, from your notes."
+    },
+    {
+      "id": "day-planner",
+      "name": "Day planner",
+      "category": "productivity",
+      "area": "Planning",
+      "status": "building",
+      "source": "manual",
+      "description": "Turn a rough schedule into calendar blocks."
+    },
+    {
+      "id": "inbox-watch",
+      "name": "OTP and alert relay",
+      "category": "productivity",
+      "area": "Email",
+      "status": "live",
+      "source": "manual",
+      "description": "Forwards codes and urgent alerts to a private chat."
+    },
+    {
+      "id": "personal-drafts",
+      "name": "Send as you, with approval",
+      "category": "productivity",
+      "area": "Messaging",
+      "status": "live",
+      "source": "manual",
+      "description": "Drafts from your number; reply 'send' to release."
+    },
+    {
+      "id": "focus",
+      "name": "Tunnel Vision",
+      "category": "productivity",
+      "area": "Focus",
+      "status": "live",
+      "source": "manual",
+      "description": "Commit to 1–3 tasks; distracting apps blocked until done."
+    },
+    {
+      "id": "breaks",
+      "name": "Leisure breaks",
+      "category": "productivity",
+      "area": "Focus",
+      "status": "live",
+      "source": "manual",
+      "description": "Take a real break; new work waits."
+    },
+    {
+      "id": "health",
+      "name": "Activity log",
+      "category": "productivity",
+      "area": "Health",
+      "status": "building",
+      "source": "manual",
+      "description": "A private movement log synced from your watch."
+    },
+    {
+      "id": "watch-app",
+      "name": "Apple Watch app",
+      "category": "productivity",
+      "area": "Apps",
+      "status": "building",
+      "source": "manual",
+      "description": "A small watch app that syncs activity."
+    },
+    {
+      "id": "mac-app",
+      "name": "Mac control app",
+      "category": "productivity",
+      "area": "Apps",
+      "status": "building",
+      "source": "manual",
+      "description": "Steer Vision from the Mac menu bar."
+    },
+    {
+      "id": "module:canvas-learning",
+      "name": "Canvas Learning",
+      "category": "productivity",
+      "area": "Modules",
+      "status": "building",
+      "source": "module",
+      "description": "Read-only Canvas LMS: courses, assignments, grades, deadlines and a study planner."
+    },
+    {
+      "id": "module:focus",
+      "name": "Focus",
+      "category": "productivity",
+      "area": "Modules",
+      "status": "building",
+      "source": "module",
+      "description": "Timed focus sessions with a log, and an end-of-session reminder."
+    },
+    {
+      "id": "client-mode",
+      "name": "Client-friendly groups",
+      "category": "builder",
+      "area": "Messaging",
+      "status": "live",
+      "source": "manual",
+      "description": "Plain-English status answers for clients, no internals."
+    },
+    {
+      "id": "multi-engine",
+      "name": "Bring your own engine",
+      "category": "builder",
+      "area": "Coding",
+      "status": "live",
+      "source": "manual",
+      "description": "Claude Code, Codex or Cursor, switchable per chat or job."
+    },
+    {
+      "id": "coding-pipeline",
+      "name": "Coding pipeline",
+      "category": "builder",
+      "area": "Coding",
+      "status": "live",
+      "source": "manual",
+      "description": "Describe a change; parallel agents build it and open a PR."
+    },
+    {
+      "id": "background-jobs",
+      "name": "Background jobs",
+      "category": "builder",
+      "area": "Coding",
+      "status": "live",
+      "source": "manual",
+      "description": "Long tasks run in the background and report back."
+    },
+    {
+      "id": "work-pool",
+      "name": "Work pool autopilot",
+      "category": "builder",
+      "area": "Coding",
+      "status": "live",
+      "source": "manual",
+      "description": "A prioritised backlog with capped, balanced parallel jobs."
+    },
+    {
+      "id": "previews",
+      "name": "Previews and prototypes",
+      "category": "builder",
+      "area": "Coding",
+      "status": "live",
+      "source": "manual",
+      "description": "Preview links and quick prototypes of work in progress."
+    },
+    {
+      "id": "sessions",
+      "name": "Many parallel sessions",
+      "category": "builder",
+      "area": "Coding",
+      "status": "live",
+      "source": "manual",
+      "description": "Per-project sessions that hand off and report to each other."
+    },
+    {
+      "id": "web-docs",
+      "name": "Mini pages",
+      "category": "builder",
+      "area": "Apps",
+      "status": "live",
+      "source": "manual",
+      "description": "Long answers become clean mobile pages."
+    },
+    {
+      "id": "browser",
+      "name": "Uses your browser",
+      "category": "builder",
+      "area": "Apps",
+      "status": "live",
+      "source": "manual",
+      "description": "Drives your logged-in Chrome and takes notes on calls."
+    },
+    {
+      "id": "connectors",
+      "name": "Connectors",
+      "category": "builder",
+      "area": "Apps",
+      "status": "live",
+      "source": "manual",
+      "description": "Gmail, Drive, Figma, Canva, Vercel, Supabase and more."
+    },
+    {
+      "id": "designs",
+      "name": "Designs and decks",
+      "category": "builder",
+      "area": "Apps",
+      "status": "live",
+      "source": "manual",
+      "description": "Mockups, posters and decks as editable links."
+    },
+    {
+      "id": "modular-builder",
+      "name": "Build your own Vision",
+      "category": "builder",
+      "area": "Public Vision",
+      "status": "building",
+      "source": "manual",
+      "description": "Pick what you need; the app builds itself around it."
+    },
+    {
+      "id": "module-store",
+      "name": "Module catalog",
+      "category": "builder",
+      "area": "Public Vision",
+      "status": "planned",
+      "source": "manual",
+      "description": "Browse and add community modules."
+    },
+    {
+      "id": "hosted",
+      "name": "Hosted Vision",
+      "category": "builder",
+      "area": "Public Vision",
+      "status": "planned",
+      "source": "manual",
+      "description": "Run Vision in the cloud instead of your Mac."
+    },
+    {
+      "id": "module:coding",
+      "name": "Coding",
+      "category": "builder",
+      "area": "Modules",
+      "status": "building",
+      "source": "module",
+      "description": "Plan coding tasks, run parallel agent sessions in git worktrees, and open PRs after approval. Never merges."
+    }
+  ]
+}
